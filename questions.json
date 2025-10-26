@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What is Digital Trust?",
+    "options": ["Confidence in digital systems and technology", "A type of cryptocurrency", "A social media trend"],
+    "answer": "Confidence in digital systems and technology"
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is an example of a phishing scam?",
+    "options": ["An email asking for login credentials", "A genuine message from your bank", "A verified government website"],
+    "answer": "An email asking for login credentials"
+  },
+  {
+    "id": "q3",
+    "question": "Why is it important to use strong passwords?",
+    "options": ["To prevent unauthorized access", "To make them easier to remember", "Because websites require it"],
+    "answer": "To prevent unauthorized access"
+  },
+  {
+    "id": "q4",
+    "question": "What does 2FA stand for?",
+    "options": ["Two-Factor Authentication", "Two-Face Access", "Triple-Factor Authorization"],
+    "answer": "Two-Factor Authentication"
+  },
+  {
+    "id": "q5",
+    "question": "Which website address is safest to enter your details?",
+    "options": ["http://example.com", "https://example.com", "example.com"],
+    "answer": "https://example.com"
+  },
+  {
+    "id": "q6",
+    "question": "What should you do if you receive a suspicious link?",
+    "options": ["Click to check it", "Ignore or delete it", "Forward it to friends"],
+    "answer": "Ignore or delete it"
+  },
+  {
+    "id": "q7",
+    "question": "What is malware?",
+    "options": ["Malicious software designed to harm your computer", "An antivirus program", "A type of secure browser"],
+    "answer": "Malicious software designed to harm your computer"
+  },
+  {
+    "id": "q8",
+    "question": "Which of these is a good cybersecurity practice?",
+    "options": ["Sharing your password with friends", "Using unique passwords for each account", "Ignoring software updates"],
+    "answer": "Using unique passwords for each account"
+  },
+  {
+    "id": "q9",
+    "question": "What should you check before entering personal info on a website?",
+    "options": ["The padlock symbol and HTTPS", "Website colors", "Number of ads"],
+    "answer": "The padlock symbol and HTTPS"
+  },
+  {
+    "id": "q10",
+    "question": "What is a digital footprint?",
+    "options": ["The data you leave online", "A computer virus", "An online payment method"],
+    "answer": "The data you leave online"
+  },
+  {
+    "id": "q11",
+    "question": "Which of these is a sign of a scam website?",
+    "options": ["Poor grammar and spelling", "Proper company logo", "Official email ID"],
+    "answer": "Poor grammar and spelling"
+  },
+  {
+    "id": "q12",
+    "question": "Why should you update your software regularly?",
+    "options": ["To fix bugs and improve security", "To waste internet data", "To remove old apps"],
+    "answer": "To fix bugs and improve security"
+  },
+  {
+    "id": "q13",
+    "question": "What is a VPN used for?",
+    "options": ["To secure your internet connection", "To hack other devices", "To speed up downloads"],
+    "answer": "To secure your internet connection"
+  },
+  {
+    "id": "q14",
+    "question": "What should you do if you think you’ve been scammed online?",
+    "options": ["Report it to authorities and your bank", "Ignore it", "Delete your account"],
+    "answer": "Report it to authorities and your bank"
+  },
+  {
+    "id": "q15",
+    "question": "Which of these helps build digital trust?",
+    "options": ["Transparency and security", "Spamming users", "Ignoring privacy policies"],
+    "answer": "Transparency and security"
+  }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Trust Awareness</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Welcome to Digital Trust Awareness</h1>
+      <p>Building confidence and safety in the digital world.</p>
+    </div>
+  </header>
+
+  <section class="info">
+    <h2>What is Digital Trust?</h2>
+    <p>
+      Digital Trust is the confidence users have in technology to perform securely, reliably,
+      and ethically. It ensures that people and businesses can interact safely online,
+      knowing their data and privacy are protected.
+    </p>
+
+    <div class="image-grid">
+        <img src="{{ url_for('static', filename='cyber1.jpg') }}" alt="Cybersecurity awareness">
+        <img src="{{ url_for('static', filename='cyber2.jpg') }}" alt="Data protection">
+        <img src="{{ url_for('static', filename='cyber3.jpg') }}" alt="Digital trust network">
+    </div>
+
+
+    <h2>Why It Matters</h2>
+    <ul>
+      <li>Protects personal and financial data</li>
+      <li>Builds online confidence and transparency</li>
+      <li>Prevents digital fraud and misinformation</li>
+    </ul>
+
+    <h2>How to Build Digital Trust</h2>
+    <ol>
+      <li>Use strong passwords and update them regularly</li>
+      <li>Enable Two-Factor Authentication (2FA)</li>
+      <li>Check for HTTPS and verify domains</li>
+      <li>Be alert to phishing emails and fake offers</li>
+      <li>Keep software and antivirus updated</li>
+    </ol>
+  </section>
+
+  <footer>
+    <a href="{{ url_for('quiz') }}" class="btn">Take the Digital Safety Quiz</a>
+  </footer>
+</body>
+</html>

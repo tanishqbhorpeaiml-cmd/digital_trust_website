@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Trust Quiz</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Digital Trust & Security Quiz</h1>
+  <form method="POST">
+    {% for q in questions %}
+      <div class="question">
+        <p><b>{{ loop.index }}. {{ q.question }}</b></p>
+        {% for opt in q.options %}
+          <label>
+            <input type="radio" name="{{ q.id }}" value="{{ opt }}" required> {{ opt }}
+          </label><br>
+        {% endfor %}
+      </div>
+      <hr>
+    {% endfor %}
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</body>
+</html>
